@@ -69,15 +69,15 @@ sections:
   #     # Choose a layout view
   #     view: citation
   #     columns: '2'
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: compact
+  - block: collection
+    id: publist
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+        # featured_only: true
+    design:
+      columns: '2'
+      view: compact
 ---
