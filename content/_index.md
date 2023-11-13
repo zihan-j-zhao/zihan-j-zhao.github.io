@@ -36,6 +36,17 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
+  - block: collection
+    id: publist
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+        # featured_only: true
+    design:
+      columns: '2'
+      view: compact
   - block: about.biography
     id: about
     content:
@@ -69,15 +80,4 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  # - block: collection
-  #   id: publist
-  #   content:
-  #     title: Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       # featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: compact
 ---
