@@ -36,6 +36,12 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
+  - block: about.biography
+    id: about
+    content:
+      title: About
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
   - block: collection
     id: publist
     content:
@@ -47,12 +53,6 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: about.biography
-    id: about
-    content:
-      title: About
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
   - block: collection
     id: posts
     content:
