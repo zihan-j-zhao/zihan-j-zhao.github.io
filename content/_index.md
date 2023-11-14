@@ -45,7 +45,7 @@ sections:
   - block: collection
     id: publist
     content:
-      title: Publications
+      title: Publications (upcoming...)
       filters:
         folders:
           - publication

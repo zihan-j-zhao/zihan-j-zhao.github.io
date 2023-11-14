@@ -25,7 +25,7 @@ organizations:
     url: https://www.wisc.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed systems, cloud computing, and database systems.
+bio: My research interests include distributed systems, cloud computing, database systems, and many others if I get a chance to explore.
 
 # Interests to show in About widget
 interests:
